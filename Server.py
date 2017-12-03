@@ -2,11 +2,13 @@
 # -*- coding: utf-8 -*-
 import random
 from xmlrpc import server
+## Status
 MonsterHp= 15
 MonsterStamina = 4
 Hp = 10
 Stamina = 5
 
+## Monster IA
 def Monsteraction():
    global MonsterStamina
    if(MonsterStamina == 0):
