@@ -45,8 +45,10 @@ def Fight(DoSomething):
  VerifyHP = VerifyHp()
  VerifyMonsterHP = VerifyMonsterHp()
  global Hp, MonsterHp, Stamina, MonsterStamina
- print(Hp)
- print(MonsterHp)
+ print("Your Hp: {}".format(Hp))
+ print("Your Stamina: {}".format(Stamina))
+ print("Monster Hp: {}".format(MonsterHp))
+ print("Monster Stamina: {}".format(MonsterStamina))
  if(VerifyHP == 0 and VerifyMonsterHP > 0):
      MonsterHp = 15
      MonsterStamina = 4
