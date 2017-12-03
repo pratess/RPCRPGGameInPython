@@ -5,12 +5,6 @@ import xmlrpc
 
 from xmlrpc import client
 
-proxy = client.ServerProxy('http://localhost:8000')
-print('Client started')
-
-
-
-
 def main():
     proxy = client.ServerProxy('http://localhost:8000')
     print('Client started')
